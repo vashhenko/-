@@ -1,0 +1,175 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background: url("img1.jpg") center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 24px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #b9bee2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: -10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+nav a.active {
+       color: #ddd;
+}
+
+#callback {
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    position: absolute;
+    bottom: 30px;
+   }
+   #callback p {
+    color: #fff;
+    padding: 14px;
+   }
+    #callback:after {
+    content: 'Обратная связь';
+    background-color: #989cbb;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 0;
+    width: 150px;
+    position: absolute;
+    left: 300px;
+    transform: rotate(-90deg);
+    transform-origin: 0 0; 
+   }
+   #callback {
+    width: 300px;
+    height: 150px;
+    background-color: grey;
+    position: absolute;
+    bottom: 30px;
+    transform: translateX(-100%);
+    position: fixed;
+   }
+   #callback:hover {
+    transform: translateX(0%);
+    transition: all 0.9s ease;
+   }
+   ol {
+	list-style-type: none; 
+	counter-reset: num;
+	position: relative;	    
+	margin: 0 0 0 60px;
+	padding: 15px 0 5px 0;
+	font-size: 16px;
+}
+ol li {
+	position: relative;	
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+	line-height: 1.4;
+}
+ol li:after {
+	content: counter(num); 
+	counter-increment: num;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: -45px;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	background: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 50%;
+	border: 1px solid #000000;
+}
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+font-family: 'Roboto', sans-serif;
+font-family: 'Mansalva', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Muli', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Bangers', cursive;
+body{   
+  font-size:17px;
+  color:#6259b4;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 90%;
+  
+}
+.logo-6 h3 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-weight: 300;
+    font-size: 30px;
+    
+}
+.logo-6 h3 span {
+    background: #5e41df;
+    color: #fff;
+    display: inline-block;
+    line-height: 1.6;
+    padding: 0 16px;
+}
+
